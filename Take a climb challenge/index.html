@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/my_style.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p class="title">Address Book</p>
+      </header>
+      <p>
+        <label for="new-task">Add Address</label><input id="new-task" type="text" placeholder="Enter Contact Name"><button>Add</button>
+      </p>
+      
+      <h3>List of Contact</h3>
+      <ul id="incomplete-tasks">
+        <li class="editMode"><input type="checkbox"><input type="text" value="Matthew - 08162696948 - matt@gmail.com"><button class="edit">Save Contact</button><button class="delete">Delete Contact</button></li>
+      </ul>
+      
+      <h3>Saved Contact</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>Nosa - 081696947- nosadan@gmail.com</label><input type="text"><button class="edit">Edit Contact</button><button class="delete">Delete Contact</button></li>
+      </ul>
+
+    <footer>
+      <p class="foot_note">Alc 2.0<br>All right reserved &copy;Ahanor Nosa 2018 </p>
+    </footer>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>
